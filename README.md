@@ -1,7 +1,3 @@
-Below is a sample README file tailored for your portfolio project based on the details you provided. Feel free to customize it further to suit your style or add more details about your project!
-
----
-
 # Bishnoi Sunil Portfolio
 
 Welcome to my personal portfolio project! This is a showcase of my skills, projects, and experiences as a developer. Built with modern web technologies, this portfolio reflects my passion for creating clean, functional, and user-friendly applications.
