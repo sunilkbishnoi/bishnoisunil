@@ -76999,24 +76999,3 @@ Webflow.require('commerce') && Webflow.require('commerce').init({
     siteId: "622fbc5a718ac3417fcd3d75",
     apiUrl: "https://render.webflow.com"
 });
-
-
-
-
-<script>
-document.querySelector('.project-trigger').addEventListener('click', function() {
-    const modal = document.getElementById('project-modal');
-    const modalImage = document.getElementById('modal-image');
-    modalImage.src = this.querySelector('img').src;
-    modal.style.display = 'flex';
-});
-
-document.querySelector('.modal-close').addEventListener('click', function() {
-    document.getElementById('project-modal').style.display = 'none';
-});
-
-// Close modal when clicking outside content
-document.getElementById('project-modal').addEventListener('click', function(e) {
-    if (e.target === this) this.style.display = 'none';
-});
-</script>
